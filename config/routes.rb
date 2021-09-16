@@ -10,7 +10,10 @@ Rails.application.routes.draw do
 
   #sign up new customer 
   post '/signup', to: 'customers#create' 
-  
+
+  #sign up new vendor
+  post '/signupvendor', to: 'vendors#create'
+
   #signing customer or vendor in 
   post '/login', to: 'sessions#create'
 
