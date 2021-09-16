@@ -4,4 +4,8 @@ class Customer < ApplicationRecord
     has_many :items, through: :order_items
 
     has_secure_password
+
+    validates :username, length: { maximum: 10 }
+    validates :username, presence: true 
+    validates :username, uniqueness: true 
 end
