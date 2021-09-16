@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   resources :customers
 
 
+  #sign up new customer 
+  post '/signup', to: 'customers#create' 
+  
   #signing customer or vendor in 
   post '/login', to: 'sessions#create'
 
@@ -16,6 +19,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   #keeping customer and vendor logged in
-  get 'loggedin', to: 'login#show'
+  get '/loggedin', to: 'login#show'
 
 end
