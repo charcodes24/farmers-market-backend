@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   end
   resources :customers
 
+  
+  get '/vendors/:id', to: 'vendors#show'
+
 
   #sign up new customer 
   post '/signup', to: 'customers#create' 

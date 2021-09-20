@@ -7,10 +7,15 @@ class VendorsController < ApplicationController
     end
 
     def create
-    vendor = Vendor.create!(vendor_params)
-    session[:vendor_id] = vendor.id
-    render json: vendor, status: :created
-  end
+        vendor = Vendor.create!(vendor_params)
+        session[:vendor_id] = vendor.id
+        render json: vendor, status: :created
+    end
+
+    def show 
+        vendor = Vendor.find_by(id: params[:id])
+        render json: vendor, status: :ok
+    end
 
   private 
 
