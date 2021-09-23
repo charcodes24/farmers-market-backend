@@ -3,7 +3,7 @@ class OrdersController < ApplicationController
     def create
         # byebug
         order = Order.create!(order_params)
-        render json: order
+        render json: order, status: :created
     end
 
     private 
