@@ -29,4 +29,7 @@ Rails.application.routes.draw do
   #creating an order 
   post '/order', to: 'orders#create'
 
+  #vendor updating item
+  patch '/items/:id', to: 'items#update'
+
 end

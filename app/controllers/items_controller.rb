@@ -12,9 +12,14 @@ class ItemsController < ApplicationController
     render json: item
   end
 
+  def update
+    item = Item.find_by(id: params[:id]).update(item_params)
+    render json: item, status: 200
+  end
+
   private 
 
   def item_params
-    params.permit(:name, :image_url, :price, :vendor_id)
+    params.permit(:name, :image_url, :price, :vendor_id, :id, :item)
   end
 end
