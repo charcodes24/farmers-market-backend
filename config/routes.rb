@@ -5,10 +5,9 @@ Rails.application.routes.draw do
     resources :items, only: [:index, :show]
   end
   resources :customers
-
   
+  #get vendor by id
   get '/vendors/:id', to: 'vendors#show'
-
 
   #sign up new customer 
   post '/signup', to: 'customers#create' 
@@ -31,5 +30,11 @@ Rails.application.routes.draw do
 
   #vendor updating item
   patch '/items/:id', to: 'items#update'
+
+  #get all orders that belong to customer
+  get '/orders/:id', to: 'orders#show'
+
+  #vendor to delete items from shop
+  # delete '/items/:id', to: 'items#destroy'
 
 end

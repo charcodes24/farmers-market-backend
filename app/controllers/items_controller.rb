@@ -13,9 +13,17 @@ class ItemsController < ApplicationController
   end
 
   def update
-    item = Item.find_by(id: params[:id]).update(item_params)
+    # byebug
+    item = Item.find_by(id: params[:id])
+    item.update(item_params)
     render json: item, status: 200
   end
+
+  # def destroy
+  #   item = Item.find_by(id: params[:id])
+  #   byebug
+  #   item.destroy
+  # end
 
   private 
 

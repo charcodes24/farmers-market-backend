@@ -22,8 +22,8 @@ vendors = [
        description: "Serving delicious, organic kombucha in reusable glass containers.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "kombuchavendor", 
-       password: "kombucha", 
-       password_confirmation: "kombucha", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -31,8 +31,8 @@ vendors = [
        description: "Local, organic eggs of all types!",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "eggvendor", 
-       password: "eggs", 
-       password_confirmation: "eggs", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -40,8 +40,8 @@ vendors = [
        description: "Fresh, seasonal fruit juices.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "juicevendor", 
-       password: "juice", 
-       password_confirmation: "juice", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -49,16 +49,16 @@ vendors = [
        description: "Artisan roasted coffees and loose-leaf teas.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "coffeevendor", 
-       password: "coffee", 
-       password_confirmation: "coffee"
+       password: "ok", 
+       password_confirmation: "ok"
    },
    {
        name: "Beautiful Arrangements",
        description: "Selling beautiful, fresh, locally-grown flowers.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "flowervendor", 
-       password: "flower", 
-       password_confirmation: "flower", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -66,8 +66,8 @@ vendors = [
        description: "Organic, grass-fed meats.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "meatvendor", 
-       password: "meat", 
-       password_confirmation: "meat", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -75,8 +75,8 @@ vendors = [
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "producevendor", 
-       password: "produce", 
-       password_confirmation: "produce", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -84,8 +84,8 @@ vendors = [
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "freshfoodvendor", 
-       password: "freshfood", 
-       password_confirmation: "freshfood", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -93,8 +93,8 @@ vendors = [
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "citrusvendor", 
-       password: "citrus", 
-       password_confirmation: "citrus", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -102,8 +102,8 @@ vendors = [
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "berryvendor", 
-       password: "berries", 
-       password_confirmation: "berries", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -111,8 +111,8 @@ vendors = [
        description: "Handmade macrame goods.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "macramevendor", 
-       password: "macrame", 
-       password_confirmation: "macrame", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -120,8 +120,8 @@ vendors = [
        description: "Handmade soap.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "soapvendor", 
-       password: "soap", 
-       password_confirmation: "soap", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -129,8 +129,8 @@ vendors = [
        description: "Handmade jewelry.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "jewelryvendor", 
-       password: "jewelry", 
-       password_confirmation: "jewelry", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
    {
@@ -138,8 +138,8 @@ vendors = [
        description: "Homemade, organic dog treats.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "dogtreatvendor", 
-       password: "dogtreats", 
-       password_confirmation: "dogtreats", 
+       password: "ok", 
+       password_confirmation: "ok", 
        is_vendor: true 
    },
 ]
@@ -151,13 +151,15 @@ puts "Seeding items..."
 ginger = "https://images.unsplash.com/photo-1599940859674-a7fef05b94ae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2luZ2VyJTIwa29tYnVjaGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 raspberry = "https://images.unsplash.com/photo-1540416465865-1f102746ce47?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFzcGJlcnJ5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 guava = "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3VhdmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-Vendor.find(1).items.create(name:"Ginger Kombucha", image_url: ginger, price: 6)
-Vendor.find(1).items.create(name:"Raspberry", image_url: raspberry, price: 6)
-Vendor.find(1).items.create(name:"Guava", image_url: guava, price: 6)
+Vendor.find(1).items.create(name:"Ginger Kombucha (16oz)", image_url: ginger, price: 6)
+Vendor.find(1).items.create(name:"Raspberry Kombucha (16oz)", image_url: raspberry, price: 6)
+Vendor.find(1).items.create(name:"Guava Kombucha (16oz)", image_url: guava, price: 6)
 
 chicken_eggs = "https://images.unsplash.com/photo-1570802685082-2224bd954723?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMGVnZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 duck_eggs = "https://images.unsplash.com/photo-1620203071880-fab395e9bbfb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHVjayUyMGVnZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+half = "https://media.istockphoto.com/photos/high-angle-studio-shot-of-six-white-eggs-in-box-picture-id472711630?b=1&k=20&m=472711630&s=170667a&w=0&h=NSQ6UZJdDY6mNc3hNUyc819ln2hr7iM3hFELT_dCHTk="
 Vendor.find(2).items.create(name: "A dozen chicken eggs", image_url: chicken_eggs, price: 6)
+Vendor.find(2).items.create(name:"Half a dozen chicken eggs", image_url: half, price: 3)
 Vendor.find(2).items.create(name:"A dozen duck eggs", image_url: duck_eggs, price: 10)
 
 orange_juice = "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9yYW5nZSUyMGp1aWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
