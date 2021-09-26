@@ -5,7 +5,7 @@ class CustomersController < ApplicationController
         customer = Customer.create!(customer_params)
         session[:customer_id] = customer.id 
         if customer 
-          CustomerMailer.with(customer: customer).welcome_email.deliver_now
+          CustomerMailer.with(customer: customer).welcome_customer.deliver_now
 
           render json: customer, status: :created
         end

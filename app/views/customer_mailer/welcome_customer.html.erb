@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lane="en">
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <style>
+  img{
+      text-align: center;
+  }
+</style>
+  <body>
+    <h1>Welcome to The Farmer&apos;s Market, <%= @customer.name %>!!</h1>
+    <img src="https://images.unsplash.com/photo-1568623970736-27bea63b4489?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2R1Y2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="fresh produce" />
+    <p>This is an alternative way to shop at our local farmer&apos;s market, proving our community with a safe, social-distancing way for you to still get your favorite products from your favorite local vendors. We&apos;re so happy you joined. 
+    <p>
+      You have successfully signed up and are ready to start placing orders!
+      Your username is: <%= @customer.username %>.<br>
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
