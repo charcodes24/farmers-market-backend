@@ -1,9 +1,20 @@
 class OrdersController < ApplicationController
-    
-    def create
-        # byebug
+
+    def create 
         order = Order.create!(order_params)
-        render json: order, status: :created
+        if order 
+            customer = Customer.find(params[:customer_id])
+            items = order.order_items.map { |x| Item.find(x.item_id) }
+            CustomerMailer.with(customer: customer, items: items).order_notification.deliver_now
+
+            filteredItems = items.uniq
+
+            vendors = filteredItems.map { |x| Vendor.find(x.vendor_id) }
+            vendors.map { |vendor| VendorMailer.with(vendor: vendor, 
+            items: items, customer: customer).order_notification.deliver_now }
+        
+            render json: order, status: :created
+        end
     end
 
     def show 

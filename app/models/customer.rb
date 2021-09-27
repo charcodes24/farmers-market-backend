@@ -5,6 +5,8 @@ class Customer < ApplicationRecord
 
     has_secure_password
 
+    validates :name, presence: true
+    validates :email, presence: true
     validates :username, length: { maximum: 10 }
     validates :username, presence: true 
     validates :username, uniqueness: true 

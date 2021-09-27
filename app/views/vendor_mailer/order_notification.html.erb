@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lane="en">
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <style>
+  img{
+      text-align: center;
+  }
+</style>
+  <body>
+    <h1>Hi, <%= @vendor.name %>!</h1>
+    <p> A customer has placed an order with you. Please have this order ready and at our blue tent by Saturday @ 8AM.
+    <p>
+
+    <%= @customer %>
+
+    <p>The following items were ordered: </p>
+    <% @items.map do |item| %>
+        <%= item.name %>
+        <br/>
+    <% end %>
+  </body>
+</html>

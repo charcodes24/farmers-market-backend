@@ -19,6 +19,7 @@ puts "Seeding vendors..."
 vendors = [
    {
        name: "Kombucha!",
+       email: "cjohnson.cota@gmail.com",
        description: "Serving delicious, organic kombucha in reusable glass containers.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "kombuchavendor", 
@@ -28,6 +29,7 @@ vendors = [
    },
    {
        name: "Eggcellent Eggs",
+       email: "cjohnson.cota@gmail.com",
        description: "Local, organic eggs of all types!",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "eggvendor", 
@@ -46,6 +48,7 @@ vendors = [
    },
    {
        name: "Component Coffee & Tea",
+       email: "cjohnson.cota@gmail.com",
        description: "Artisan roasted coffees and loose-leaf teas.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "coffeevendor", 
@@ -54,6 +57,7 @@ vendors = [
    },
    {
        name: "Beautiful Arrangements",
+       email: "cjohnson.cota@gmail.com",
        description: "Selling beautiful, fresh, locally-grown flowers.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "flowervendor", 
@@ -63,6 +67,7 @@ vendors = [
    },
    {
        name: "Yolkohm Ranch",
+       email: "cjohnson.cota@gmail.com",
        description: "Organic, grass-fed meats.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "meatvendor", 
@@ -72,6 +77,7 @@ vendors = [
    },
    {
        name: "Sequoia Farms",
+       email: "cjohnson.cota@gmail.com",
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "producevendor", 
@@ -81,6 +87,7 @@ vendors = [
    },
    {
        name: "Sage Roots",
+       email: "cjohnson.cota@gmail.com",
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "freshfoodvendor", 
@@ -90,6 +97,7 @@ vendors = [
    },
    {
        name: "Citrus Goods",
+       email: "cjohnson.cota@gmail.com",
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "citrusvendor", 
@@ -99,6 +107,7 @@ vendors = [
    },
    {
        name: "Berries and More",
+       email: "cjohnson.cota@gmail.com",
        description: "Fresh, organic produce.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "berryvendor", 
@@ -108,6 +117,7 @@ vendors = [
    },
    {
        name: "Modern Macrame",
+       email: "cjohnson.cota@gmail.com",
        description: "Handmade macrame goods.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "macramevendor", 
@@ -117,6 +127,7 @@ vendors = [
    },
    {
        name: "Molly's Soaps",
+       email: "cjohnson.cota@gmail.com",
        description: "Handmade soap.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "soapvendor", 
@@ -126,6 +137,7 @@ vendors = [
    },
    {
        name: "Delicate Designs",
+       email: "cjohnson.cota@gmail.com",
        description: "Handmade jewelry.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "jewelryvendor", 
@@ -135,6 +147,7 @@ vendors = [
    },
    {
        name: "Fido's Fix",
+       email: "cjohnson.cota@gmail.com",
        description: "Homemade, organic dog treats.",
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "dogtreatvendor", 
@@ -144,7 +157,7 @@ vendors = [
    },
 ]
  
-vendors.each {|vendor| Vendor.create(name: vendor[:name], description: vendor[:description], username: vendor[:username], password: vendor[:password], password_confirmation: vendor[:password_confirmation], is_vendor: vendor[:is_vendor])}
+vendors.each {|vendor| Vendor.create(name: vendor[:name], email: vendor[:email], description: vendor[:description], username: vendor[:username], password: vendor[:password], password_confirmation: vendor[:password_confirmation], is_vendor: vendor[:is_vendor])}
 
 puts "Seeding items..."
 
@@ -223,9 +236,9 @@ dog_treat = "https://images.unsplash.com/photo-1582798358481-d199fb7347bb?ixid=M
 Vendor.find(14).items.create(name:"Dog Treat", image_url: dog_treat, price: 7)
 
 puts "Seeding customers..."
-Customer.create(username: "IrynaStein", password: "iryna", password_confirmation: "iryna")
-Customer.create(username: "CharJohnson", password: "char", password_confirmation: "char")
-Customer.create(username: "AdamTurnupseed", password: "adam", password_confirmation: "adam")
+Customer.create(username: "IrynaStein", email: "cjohnson.cota@gmail.com", password: "iryna", password_confirmation: "iryna")
+Customer.create(username: "CharJohnson", email: "cjohnson.cota@gmail.com", password: "char", password_confirmation: "char")
+Customer.create(username: "AdamTurnupseed", email: "cjohnson.cota@gmail.com", password: "adam", password_confirmation: "adam")
 
 puts "Seeding orders..."
 Order.create(subtotal: 20, customer_id: 1)

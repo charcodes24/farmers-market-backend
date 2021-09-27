@@ -16,6 +16,12 @@ class VendorsController < ApplicationController
         end
     end
 
+    # vendors = order.order_items.map { |x| Vendor.find(x.item_id).name}
+
+    # items = order.order_items.map { |x| Item.find(:item_id) }
+
+    # unique = items.uniq
+
     def show 
         vendor = Vendor.find_by(id: params[:id])
         render json: vendor, status: :ok
