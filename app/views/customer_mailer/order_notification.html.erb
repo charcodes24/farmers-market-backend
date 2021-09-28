@@ -5,7 +5,8 @@
   </head>
   <style>
   img{
-      text-align: center;
+      max-height: 100px;
+      max-width: 100px;
   }
 </style>
   <body>
@@ -13,9 +14,11 @@
     <p>Thanks for placing an order with our vendors. Your order will be ready for pick-up at the blue tent on Saturday morning between 6AM and 11AM. Look forward to seeing you then. 
     <p>
 
-    <p>Items in your order:<p>
+    <p>You ordered the following items: </p>
     <% @items.map do |item| %>
-        <%= item.name %>
+        <p><%= item.name %></p>
+        <img src=<%= item.image_url %>/>
+        <br/>
     <% end %>
 
   </body>

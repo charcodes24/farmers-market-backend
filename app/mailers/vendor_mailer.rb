@@ -9,6 +9,8 @@ class VendorMailer < ApplicationMailer
 
     def order_notification 
         @vendor = params[:vendor]
+        @customer = params[:customer]
+        @order = params[:order]
         @items = params[:items].select{|item| item.vendor_id === @vendor.id }
         mail(to: @vendor.email, subject: 'You have an order!')
     end
