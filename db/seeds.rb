@@ -53,7 +53,8 @@ vendors = [
        image_url: "https://images.unsplash.com/photo-1534683251650-3fd64cd1561a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVuZG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        username: "coffeevendor", 
        password: "ok", 
-       password_confirmation: "ok"
+       password_confirmation: "ok", 
+       is_vendor: true
    },
    {
        name: "Beautiful Arrangements",
