@@ -11,7 +11,7 @@ class OrdersController < ApplicationController
 
             vendors = filteredItems.map { |x| Vendor.find(x.vendor_id) }
             byebug
-            vendors.map { |vendor| VendorMailer.with(vendor: vendor, 
+            vendors.uniq.map { |vendor| VendorMailer.with(vendor: vendor, 
             items: items, customer: customer, order: order).order_notification.deliver_now }
         
             render json: order, status: :created
