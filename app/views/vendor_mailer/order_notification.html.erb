@@ -17,7 +17,7 @@
     <p>The order contains the following items: </p>
     <% @items.map do |item| %>
         <p><%= item.name %></p>
-        <img src=<%= item.image_url %>/>
+        <p>$<%= item.price %></p>
         <br/>
     <% end %>
   </body>
