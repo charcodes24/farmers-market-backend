@@ -13,21 +13,14 @@ class ItemsController < ApplicationController
   end
 
   def update
-    # byebug
     item = Item.find_by(id: params[:id])
-    item.update(item_params)
+    item.update!(item_params)
     render json: item, status: 200
   end
-
-  # def destroy
-  #   item = Item.find_by(id: params[:id])
-  #   byebug
-  #   item.destroy
-  # end
 
   private 
 
   def item_params
-    params.permit(:name, :image_url, :price, :vendor_id, :id, :item)
+    params.require(:item).permit(:name, :image_url, :price, :vendor_id, :id, :item)
   end
 end
