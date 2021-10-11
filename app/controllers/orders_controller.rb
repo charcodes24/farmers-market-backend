@@ -10,7 +10,6 @@ class OrdersController < ApplicationController
             filteredItems = items.uniq
 
             vendors = filteredItems.map { |x| Vendor.find(x.vendor_id) }
-            byebug
             vendors.uniq.map { |vendor| VendorMailer.with(vendor: vendor, 
             items: items, customer: customer, order: order).order_notification.deliver_now }
         
