@@ -15,10 +15,8 @@
     <p>
 
     <p>You ordered the following items: </p>
-    <% @items.map do |item| %>
-        <p><%= item.name %></p>
-        <img src=<%= item.image_url %>/>
-        <br/>
+    <% @x.map do |item, count| %>
+        <p><%= item.name %> Count:<%= count %></p>
     <% end %>
 
   </body>

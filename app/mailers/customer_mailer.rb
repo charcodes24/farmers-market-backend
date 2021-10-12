@@ -9,6 +9,8 @@ class CustomerMailer < ApplicationMailer
     def order_notification
         @customer = params[:customer]
         @items = params[:items]
+        @x = Hash.new(0)
+        @items.each {|item| @x[item] += 1}
         mail(to: @customer.email, subject: 'Thanks for your order!')
     end
 end
