@@ -1,5 +1,5 @@
 class VendorSerializer < ActiveModel::Serializer
-  attributes :id, :name, :image_url, :description, :is_vendor
+  attributes :id, :name, :description, :is_vendor
 
   has_many :items
 end

@@ -15,9 +15,8 @@
     <p>Customer Number: <%=@customer.id%> </p>
 
     <p>The order contains the following items: </p>
-    <% @items.map do |item| %>
-        <p><%= item.name %></p>
-        <p>$<%= item.price %></p>
+    <% @x.map do |item, count| %>
+        <p><%= item.name %> Count:<%= count %></p>
         <br/>
     <% end %>
   </body>

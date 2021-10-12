@@ -12,6 +12,8 @@ class VendorMailer < ApplicationMailer
         @customer = params[:customer]
         @order = params[:order]
         @items = params[:items].select{|item| item.vendor_id === @vendor.id }
+        @x = Hash.new(0)
+        @items.each {|item| @x[item] += 1}
         mail(to: @vendor.email, subject: 'You have an order!')
     end
 end
