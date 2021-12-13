@@ -10,9 +10,9 @@ class CustomersController < ApplicationController
           render json: customer, status: :created
         end
 
-        # else 
-        #   format json { render json: customer.errors, status: unprocessable_entity }
-        # end
+        else 
+          format json { render json: customer.errors, status: unprocessable_entity }
+        end
     end
 
 

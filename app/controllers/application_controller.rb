@@ -6,8 +6,6 @@ class ApplicationController < ActionController::API
     before_action :authorize, only: [:customer, :vendor]
 
 
-    
-
 private 
 
     def authorize 

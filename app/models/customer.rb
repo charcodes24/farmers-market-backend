@@ -4,11 +4,11 @@ class Customer < ApplicationRecord
     has_many :items, through: :order_items
 
 
-    # validates :name, presence: true
-    # validates :email, presence: true
-    # validates :username, length: { maximum: 10 }
-    # validates :username, presence: true 
-    # validates :username, uniqueness: true 
+    validates :name, presence: true
+    validates :email, presence: true
+    validates :username, length: { maximum: 10 }
+    validates :username, presence: true 
+    validates :username, uniqueness: true 
 
     validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
 

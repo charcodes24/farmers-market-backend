@@ -1,12 +1,11 @@
 class Vendor < ApplicationRecord
     has_many :items, dependent: :destroy
 
-
-    # validates :name, presence: true
-    # validates :description, presence: true
-    # validates :email, presence: true
-    # validates :username, presence: true 
-    # validates :username, uniqueness: true 
+    validates :name, presence: true
+    validates :description, presence: true
+    validates :email, presence: true
+    validates :username, presence: true 
+    validates :username, uniqueness: true 
 
     validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
 

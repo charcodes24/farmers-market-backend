@@ -17,7 +17,6 @@ class SessionsController < ApplicationController
 
   def destroy
         session.destroy
-        # byebug
         render json: { message: "session deleted" }
     end
 end
