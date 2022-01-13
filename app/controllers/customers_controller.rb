@@ -1,5 +1,4 @@
 class CustomersController < ApplicationController
-  skip_before_action :authorize, only: :create 
 
     def create
         customer = Customer.create!(customer_params)
@@ -8,10 +7,8 @@ class CustomersController < ApplicationController
           CustomerMailer.with(customer: customer).welcome_customer.deliver_now
 
           render json: customer, status: :created
-        end
-
         else 
-          format json { render json: customer.errors, status: unprocessable_entity }
+           render json: customer.errors, status: unprocessable_entity 
         end
     end
 

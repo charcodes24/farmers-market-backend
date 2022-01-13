@@ -7,6 +7,7 @@ class OrdersController < ApplicationController
             items = order.order_items.map { |x| Item.find(x.item_id) }
             CustomerMailer.with(customer: customer, items: items).order_notification.deliver_now
 
+            #so that vendors would only receive one email vs multiple if multiple items were ordered from their shop
             filteredItems = items.uniq
 
             vendors = filteredItems.map { |x| Vendor.find(x.vendor_id) }

@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
-    # GET /items
+  # GET /items
   def index
     items = Item.where(vendor_id: params[:vendor_id].to_i)
     render json: items, include: :vendor
